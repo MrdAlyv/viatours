@@ -2,32 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .w-240 {
+        width: 960px;
+    }
+}
+
+.home-bg {
+    width: 1400px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/bbef/edc5/e54293213050930488246d578b728422?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CNw3SXCf6ITxx99zFcym~jRrPnzCm3v8yQets-dQgM7L2k1uP4pw66T6vb4m33A9v7IxRbROFj~4DEqf26z6Gyq1ftoqhEXKQZcQ2yhl6Ogcf7EWe5xAjYWvy557YGWp9x8kqDoFsw95a~rZZbYoOnHlEy8irB3TG3Yk7CBcfF~lKRtJREozSxo2qwoJ67m3zxByP20GySeyZBQuVidOHagSUkG4Y6Iw6am~CroyUPLbOqaiE5aMHC5KVZ2vyiLuwarGUJfZRQ6G2gEETvwrx6VGQCjSlSk~-Liz-BiifM6pplfxm3TiuNMvrCzlpXzD4fMy3dG3d2hqHFihxq8dwg__);
 }
