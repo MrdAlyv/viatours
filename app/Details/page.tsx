@@ -7,7 +7,7 @@ const Details = () => {
             <h1 className=' text-3xl font-bold w-1/2 ' >Phi Phi Islands Adventure Day Trip with
                 Seaview Lunch by V. Marine Tour</h1>
             <div className='flex flex-row gap-11 mt-7 mx-14'>
-                <p>4.8 (269)          </p>
+                <p>4.8 (269)   </p>
                 <p>Paris, France </p>
                 <p>30K+ booked</p>
             </div>
@@ -17,7 +17,7 @@ const Details = () => {
                     <h1 className='text-3xl font-bold my-11'>Tour Overview</h1>
                     <p>The Phi Phi archipelago is a must-visit while in Phuket, and this speedboat trip whisks you around the islands in one day.
                         Swim over the coral reefs of Pileh Lagoon, have lunch at Phi Phi Leh, snorkel at Bamboo Island, and visit Monkey Beach and
-                        Maya Bay, immortalized in "The Beach." Boat transfers, snacks, buffet lunch, snorkeling equipment, and Phuket hotel pickup
+                        Maya Bay, immortalized in The Beach. Boat transfers, snacks, buffet lunch, snorkeling equipment, and Phuket hotel pickup
                         and drop-off all included.</p>
                 </div>
 

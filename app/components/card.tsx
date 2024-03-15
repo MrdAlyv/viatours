@@ -11,21 +11,21 @@ const Card = () => {
                 <div>
                     <Image src={icon} alt="Tourist Icon" />
                     <p>Ultimate flexibility</p>
-                    <p>You're in control, with free
+                    <p>Youre in control, with free
                         cancellation and payment options to
                         satisfy any plan or budget.</p>
                 </div>
                 <div>
                     <Image src={icon} alt="Tourist Icon" />
                     <p>Ultimate flexibility</p>
-                    <p>You're in control, with free
+                    <p>Youre in control, with free
                         cancellation and payment options to
                         satisfy any plan or budget.</p>
                 </div>
                 <div>
                     <Image src={icon} alt="Tourist Icon" />
                     <p>Ultimate flexibility</p>
-                    <p>You're in control, with free
+                    <p>Youre in control, with free
                         cancellation and payment options to
                         satisfy any plan or budget.</p>
                 </div>
